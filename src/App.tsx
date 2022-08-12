@@ -1,6 +1,8 @@
-import { useState } from 'react';
-import reactLogo from './assets/react.svg';
-import './App.css';
+/* eslint-disable react/button-has-type */
+/* eslint-disable react/react-in-jsx-scope */
+import { useState } from "react";
+import reactLogo from "./assets/react.svg";
+import "./App.css";
 
 function App() {
   const [count, setCount] = useState(0);
